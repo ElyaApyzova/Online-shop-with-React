@@ -1,9 +1,10 @@
+
 import img1 from "./photo1.avif";
 import img2 from "./photo2.avif";
 import img3 from "./photo3.avif";
 import img4 from "./photo4.avif";
 
-let data_product = [
+let NewCollections = [
   {
     id: 1,
     name: "Shirt",
@@ -34,4 +35,4 @@ let data_product = [
   },
 ];
 
-export default data_product;
+export default NewCollections;

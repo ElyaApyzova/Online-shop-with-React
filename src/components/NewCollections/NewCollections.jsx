@@ -1,6 +1,6 @@
 import React from "react";
 import './NewCollections.css'
-import hero_image2 from '../Assets/hero_image2.avif'
+import NewCollection from '../Assets/NewCollections'
 import Item from "../Item/Item";
 
 
@@ -10,7 +10,7 @@ const NewCollections = () => {
         <h1>NEW COLLECTIONS</h1>
         <hr/>
         <div className="collections">
-        {hero_image2.map((item,i)=>{
+        {NewCollection.map((item,i)=>{
             return <Item
             key={i}
             id={item.id}

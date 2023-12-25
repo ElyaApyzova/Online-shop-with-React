@@ -1,16 +1,12 @@
 .item {
-<<<<<<< HEAD
-  width: 250px;
+  width: 350px;
 }
 
-.item img{
+.item img {
   width: 200px;
   height: 250px;
   object-fit: cover;
   border-radius: 10px;
-=======
-  width: 350px;
->>>>>>> 713e9df36ffe4e7ea23b878967adc044d26edfbe
 }
 
 .item p {
