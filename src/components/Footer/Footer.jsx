@@ -1,5 +1,5 @@
 import React from "react";
-import './Footer'
+import './Footer.css'
 import footer_logo from '../Assets/shopping-bag.svg'
 
 const Footer = () => {

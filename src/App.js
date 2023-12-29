@@ -6,7 +6,8 @@ import ShopCategory from "./Pages/ShopCategory";
 import LoginSignup from "./Pages/LoginSignup";
 import Product from "./Pages/Product";
 import Cart from "./Pages/Cart";
-import Footer from "./components/Footer";
+import Footer from "./components/Footer/Footer";
+
 
 function App() {
   return (

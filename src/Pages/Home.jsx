@@ -13,6 +13,7 @@ const Home = () => {
       <Offers/>
       <NewCollections/>
       <NewsLetter/>
+
     </div>
   );
 };
