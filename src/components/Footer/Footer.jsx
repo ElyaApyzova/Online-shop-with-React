@@ -19,7 +19,11 @@ const Footer = () => {
         <div className="footer-social-icon">
           <div className="footer-icons-container">
           <i class='bx bxl-instagram'></i>
+          </div>
+          <div className="footer-icons-container">
           <i class='bx bxl-telegram'></i>
+          </div>
+          <div className="footer-icons-container">
           <i class='bx bxl-whatsapp'></i>
           </div>
         </div>
@@ -28,6 +32,7 @@ const Footer = () => {
             <p>Copyright @ 2023 - All Right Reversed.</p>
         </div>
         </div>
+        
     )
 }
 
