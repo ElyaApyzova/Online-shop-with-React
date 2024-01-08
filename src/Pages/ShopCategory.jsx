@@ -7,7 +7,20 @@ const ShopCategory = (props) => {
   const {all_product} = useContext(ShopContext);
   return (
     <div className="shop-category">
+      <div className="banners">
+      <div className="banner-left">
+        <p>Ultimate Discount</p>
+        <h1>Super Sale</h1>
+        <p>Up To 50% off</p>
+        <div className="banner-btn">
+          <div>Shop now</div>
+          <i class='bx bxs-right-arrow-circle'></i>
+        </div>
+        </div>
+        <div className="banner-right">
     <img className="shopcategory-banner" src={props.banner} alt="" />
+    </div>
+    </div>
     <div className="shopcategory-indexSort">
       <p>
         <span>Showing 1-12</span> out of 36 products
