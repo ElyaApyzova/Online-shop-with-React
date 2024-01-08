@@ -13,10 +13,9 @@ footer-logo{
     gap: 20px;
 }
 
-.footer-logo img{
-    width: 60px;
-    height: 60px;
-    object-fit: cover;
+.footer-logo i{
+   font-size: 60px;
+   color: palevioletred;
 }
 
 
@@ -45,8 +44,8 @@ footer-logo{
 .footer-icons-container{
     padding: 10px;
     padding-bottom: 6px;
-    background: pink;
-    border: 1px solid palevioletred;
+    background: rgb(247, 230, 232);
+    border-radius: 8px;
 }
 
 .footer-icons-container i{

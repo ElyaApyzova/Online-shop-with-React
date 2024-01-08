@@ -1,12 +1,11 @@
 import React from "react";
 import './Footer.css'
-import footer_logo from '../Assets/shopping-bag.svg'
 
 const Footer = () => {
     return (
         <div className="footer"> 
         <div className="footer-logo">
-        <img src={footer_logo} alt=""/>
+        <i class='bx bxs-shopping-bags'></i>
         <p>STYLE</p>
         </div>
         <ul className="footer-links">

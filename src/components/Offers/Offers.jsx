@@ -1,6 +1,6 @@
 import React from "react";
 import './Offers.css'
-import hero_image1 from '../Assets/hero_image1.avif'
+import hero_image1 from '../Assets/hero-img.png'
 
 const Offers = () =>{
     return(

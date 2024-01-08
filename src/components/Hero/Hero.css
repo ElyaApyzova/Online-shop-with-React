@@ -32,8 +32,9 @@
   gap: 16px;
 }
 
-.hero-hand-icon img {
-  width: 60px;
+.hero-hand-icon i{
+  font-size: 60px;
+  color: palevioletred;
 }
 
 .hero-latest-btn {
@@ -41,7 +42,7 @@
   justify-content: center;
   align-items: center;
   gap: 15px;
-  width: 280px;
+  width: 260px;
   height: 60px;
   border-radius: 75px;
   margin-top: 30px;
@@ -49,6 +50,10 @@
   color: antiquewhite;
   font-size: 18px;
   font-weight: 500;
+}
+
+.hero-latest-btn i{
+  font-size: 30px;
 }
 
 .hero-right {
@@ -59,7 +64,7 @@
 }
 
 .hero-right img{
-  width: 350px;
+  width: 320px;
   height: 450px;
   object-fit: cover;
   border-radius: 30px;

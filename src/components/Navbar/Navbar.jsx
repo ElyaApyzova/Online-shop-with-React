@@ -1,15 +1,14 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import logo from "../Assets/logo.png";
-import cart_icon from "../Assets/cart_icon.png";
+
 
 const Navbar = () => {
   const [menu, setMenu] = useState("home");
   return (
     <div className="navbar">
       <div className="nav-logo">
-        <img src={logo} alt="" />
+      <i class='bx bxs-shopping-bags'></i>
         <p>STYLE</p>
       </div>
       <ul className="nav-menu">
@@ -60,7 +59,7 @@ const Navbar = () => {
           <button>Login</button>
         </Link>
         <Link to="/cart">
-          <img src={cart_icon} alt="" />
+        <i class='bx bxs-cart'></i>
         </Link>
         <div className="nav-cart-count">0</div>
       </div>
