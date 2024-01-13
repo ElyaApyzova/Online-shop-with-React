@@ -1,6 +1,6 @@
 .productdisplay{
     display: flex;
-    margin: 0px 200px 100px 200px;
+    margin: 0px 200px;
 }
 
 .productdisplay-left{
@@ -33,7 +33,7 @@
 
 .productdisplay-right h1{
    color: #3d3d3d;
-   font-size: 15px; 
+   font-size: 16px; 
    font-weight: 700;
 }
 
