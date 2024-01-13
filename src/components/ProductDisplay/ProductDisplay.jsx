@@ -35,7 +35,7 @@ const ProductDisplay = (props) => {
         <div className='productdisplay-right-description'>
           A lightweight, usually knitted, pullover shirt, close-fitting and a round neckline and short sleeves, worn as an undershirt.   
         </div>
-        <div className='productdisplay-right-sizes'>
+        <div className='productdisplay-right-size'>
             <h1>Select Size</h1>
             <div className='productdisplay-right-sizes'>
                <div>S</div>
@@ -46,8 +46,8 @@ const ProductDisplay = (props) => {
             </div>
         </div>
         <button>ADD TO CART</button>
-        <div className='productdisplay-right-category'><span>Category :</span>Women, T-shirt, Crop Top</div>
-        <div className='productdisplay-right-category'><span>Tags :</span>Modern, Latest</div>
+        <div className='productdisplay-right-category'><span>Category :</span> Women, T-shirt, Crop Top</div>
+        <div className='productdisplay-right-category'><span>Tags :</span> Modern, Latest</div>
       </div>
       </div>
     )
