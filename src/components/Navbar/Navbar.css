@@ -74,15 +74,15 @@
 }
 
 .nav-cart-count{
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -35px;
-    margin-left: -55px;
-    border-radius: 11px;
-    font-size: 14px;
+    margin-top: -31px;
+    margin-left: -60px;
+    border-radius: 50%;
+    font-size: 12px;
     background: palevioletred;
     color: white;
 }
