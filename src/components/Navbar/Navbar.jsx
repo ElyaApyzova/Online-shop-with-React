@@ -1,19 +1,28 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import { ShopContext } from "../../Context/ShopContext";
+import nav_dropdown from '../Assets/dropdown.png';
 
 
 const Navbar = () => {
   const [menu, setMenu] = useState("home");
   const {getTotalCartItems}= useContext(ShopContext)
+   const menuRef = useRef();
+
+   const dropdown_toggle = (e) => {
+     menuRef.current.classList.toggle('nav-menu-visible');
+     e.target.classList.toggle('open')
+   }
+
   return (
     <div className="navbar">
       <div className="nav-logo">
       <i class='bx bxl-shopify'></i>
         <p>STYLE</p>
       </div>
-      <ul className="nav-menu">
+      <img className="nav-dropdown" onClick={dropdown_toggle}  src={nav_dropdown} alt="" />
+      <ul ref={menuRef} className="nav-menu">
         <li
           onClick={() => {
             setMenu("home");
