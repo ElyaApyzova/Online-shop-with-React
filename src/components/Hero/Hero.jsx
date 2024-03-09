@@ -1,9 +1,11 @@
 import React from "react";
 import "./Hero.css";
-import hero_image from "../Assets/hero_img.png";
+import hero_image from "../Assets/dress.png";
 
 const Hero = () => {
   return (
+    <div className="wrapper">
+    <div className="container">
     <div className="hero">
       <div className="hero-left">
         <h2>New Arrivals</h2>
@@ -23,6 +25,8 @@ const Hero = () => {
       <div className="hero-right">
         <img src={hero_image} alt="" />
       </div>
+    </div>
+    </div>
     </div>
   );
 };

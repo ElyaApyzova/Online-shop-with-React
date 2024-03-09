@@ -16,6 +16,7 @@ const Navbar = () => {
    }
 
   return (
+    
     <div className="navbar">
       <div className="nav-logo">
       <i class='bx bxl-shopify'></i>
