@@ -4,30 +4,26 @@ import hero_image from "../Assets/dress.png";
 
 const Hero = () => {
   return (
-    <div className="wrapper">
-    <div className="container">
-    <div className="hero">
+    <section className="wrapper">
+    <div className="container hero-inner">
       <div className="hero-left">
         <h2>New Arrivals</h2>
-        <div>
           <div className="hero-hand-icon">
             <p>Discover</p>
             <i class='bx bxs-hand-right'></i>
           </div>
-          <p>all your favourite</p>
-          <p>seasonal trends</p>
+          <h1>Stay Home and Shop Online</h1>
+          <p>Style is a deeply personal expression of who you are, and every time you dress, you are asserting a part of yourself.</p>
         </div>
         <div className="hero-latest-btn">
-          <div>Latest Collection</div>
+          <button>Latest Collection</button>
           <i class='bx bxs-right-arrow-circle'></i>
         </div>
       </div>
       <div className="hero-right">
         <img src={hero_image} alt="" />
       </div>
-    </div>
-    </div>
-    </div>
+    </section>
   );
 };
 
